@@ -8,9 +8,11 @@
   <body>
     <!-- Navbar -->
     <nav id="id=navbar">
-      <div class="navbar__logo"></div>
-      <i class="a.jpg"></i>
-      <a href="#">Yj</a>
+      <div class="navbar__logo">
+        <i class="imgs\a.jpg"></i>
+        <!-- 로고입력이 안되는 이유? -->
+        <a href="#">Yj</a>
+      </div>
       <ul class="navbar__menu">
         <li class="navbar__menu__item">Home</li>
         <li class="navbar__menu__item">About</li>
@@ -20,15 +22,141 @@
         <li class="navbar__menu__item">Contact</li>
       </ul>
     </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <img src="imgs/profile.png" alt=""Yj's profile photo""
+      class="home__avatar" />
+      <h1 class="home__title">Hello, <br />I'm Dream Coder</h1>
+      <h2 class="home_description">개발지망자</h2>
+      <button class="home__contact">Contact Me</button>
+    </section>
+
     <!--  About -->
-    <section id="About"></section>
+    <section id="About">
+      <h1>About me</h1>
+      <p>어필할 수 있는 문장 2~3문장 서술</p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon"></div>
+          <!-- fontawesume에서 아이콘 검색 -->
+          <div class="major__title">Front-end</div>
+          <div class="major__description"></div>
+        </div>
+        <div class="major">
+          <div class="major__icon"></div>
+          <!-- fontawesume에서 아이콘 검색 -->
+          <div class="major__title">Front-end</div>
+          <div class="major__description"></div>
+        </div>
+        <div class="major">
+          <div class="major__icon"></div>
+          <!-- fontawesume에서 아이콘 검색 -->
+          <div class="major__title">Front-end</div>
+          <div class="major__description"></div>
+        </div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img src="imgs/jobs로고.jpg" alt="설명" class="job__logo" />
+          <p class="job__name"></p>
+          <p class="job__period"></p>
+        </div>
+        <div class="job"></div>
+      </div>
+    </section>
     <!-- Skills -->
-    <section id="skills"></section>
+    <section id="skills">
+      <h1>Skills</h1>
+      <h2>Skills & Atrributes</h2>
+      <p>Skills 서술</p>
+      <div class="skillset">
+        <div class="skillset__left">
+          <h3 class="skillset_title">Skills</h3>
+          <div class="skill">
+            <div class="skill_description">
+              <span>HTML</span>
+              <span>99%</span>
+              <!-- 스킬 숙련도 -->
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillset__right">
+          <div class="tools">
+            <h3 class="skillset_title">Tools</h3>
+            <ul class="tools__lists">
+              <!-- 잘하는 tools 작성 -->
+              <li><span>Visual Studio Code</span></li>
+              <li><span>IntelliJ</span></li>
+              <li><span>Eclipse</span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+            </ul>
+          </div>
+          <div class="etc">
+            <h3 class="skillset_title">Etc</h3>
+            <ul class="etc__list">
+              <span>Git</span>
+              <span>Scrum Master(ex)</span>
+              <span></span>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Work -->
-    <section id="work"></section>
+    <section id="work">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn">
+          All<span class="category--count">8</span>
+        </button>
+        <button class="category__btn">
+          Front-end<span class="category--count">3</span>
+        </button>
+        <button class="category__btn">
+          Back-end<span class="category--count">3</span>
+        </button>
+        <button class="category__btn">
+          Mobile<span class="category--count">2</span>
+        </button>
+      </div>
+
+      <div class="work__projects">
+        <a href="" class="project" target="blank">
+          <img src="img/projects/" alt="Youtube" />
+          <div class="project__img"></div>
+          <div class="project__description">
+            <h3>Youtube Site</h3>
+            <span>Clone coding with HTML and CSS</span>
+          </div>
+        </a>
+      </div>
+    </section>
     <!-- Testimaonials -->
-    <section id="testimonials"></section>
+    <section id="testimonials">
+      <h1>Testimonials</h1>
+      <h3>See what they say about me</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img src="imgs/Testimonial/" alt="" class="testimonial__avatar" />
+          <div class="testimoial__speech-bubble">
+            <p>아무 말</p>
+            <p class="name"><a href="">Yj</a> / 그 사람이 일한 회사</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Contact -->
-    <section id="contact"></section>
+    <section id="contact">
+      <h1 class="contatc__title">Let's talk</h1>
+      <h2 class="contact__email">key140@naver.com</h2>
+      <div class="contact_links"></div>
+      <p class="contact__rights">2020 Dream Coding - All right reserved</p>
+    </section>
   </body>
 </html>
